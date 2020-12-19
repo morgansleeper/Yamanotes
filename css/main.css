@@ -3,7 +3,6 @@
 body {
 	margin: 0;
 	background-color: #9acd32;
-	padding:10;
 }
 
 .header {
@@ -14,7 +13,7 @@ body {
 	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	font-size: 30px;
+	font-size: 80px;
 }
 
 #wrapper {
@@ -29,7 +28,7 @@ ul {
 	
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	list-style-type: none;
-	font-size: 30px;
+	font-size: 80px;
 }
 
 .loop {position:absolute}
