@@ -6,7 +6,7 @@ body {
 
 ul {
 	margin: 0;
-	padding: 0;
+	padding: 10;
 	
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	list-style-type: none;
