@@ -4,6 +4,14 @@ body {
 	margin: 0;
 }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #9acd32;
+  color: white;
+  font-size: 80px;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
