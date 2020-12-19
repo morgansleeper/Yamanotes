@@ -2,13 +2,15 @@
 
 body {
 	margin: 0;
+	background-color: #92a8d1;
+	padding:10;
 }
 
 .header {
 	position:fixed;
 	z-index:1;
-	padding: 60px;
-	text-align: right;
+	padding: 10px;
+	text-align: center;
 	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
