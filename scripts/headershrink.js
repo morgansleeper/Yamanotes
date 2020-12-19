@@ -7,6 +7,6 @@ function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("shrinkHeader").style.fontSize = "2vw";
   } else {
-    document.getElementById("shrinkHeader").style.fontSize = "5vw";
+    document.getElementById("shrinkHeader").style.fontSize = "6vw";
   }
 } 
