@@ -5,11 +5,18 @@ body {
 }
 
 .header {
-  padding: 60px;
-  text-align: center;
-  background: #9acd32;
-  color: white;
-  font-size: 80px;
+	position:fixed;
+	padding: 60px;
+	text-align: center;
+	background: #9acd32;
+	color: white;
+	font-size: 80px;
+}
+
+#wrapper {
+	position:relative; 
+	z-index:2; 
+	margin:100% 0 0;
 }
 
 ul {
