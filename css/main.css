@@ -8,26 +8,27 @@ body {
 .header {
 	position:fixed;
 	padding: 10px;
-	text-align: right;
+	text-align: center;
+	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: 80px;
 }
 
-.sticky {
+/* .sticky {
   position: fixed;
   top: 0;
   width: 100%
-}
+} */
 
 #wrapper {
 	position:relative; 
 	margin:100% 0 0;
 }
 
-.sticky + #wrapper {
+/* .sticky + #wrapper {
   padding-top: 102px;
-}
+} */
 
 ul {
 	margin: 0;
