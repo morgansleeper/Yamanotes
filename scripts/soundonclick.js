@@ -36,4 +36,4 @@ function createsoundbite(sound){
 
 //Initialize sound clips:
 
-var jrsh3=createsoundbite("audio/jr-sh-3.mp3")
+var sh3=createsoundbite("audio/sh3.mp3")
