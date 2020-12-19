@@ -7,12 +7,11 @@ body {
 	position: fixed;
 	z-index: 1;
 	top: 0;
-	padding: 10px;
 	text-align: center;
 	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	font-size: 5vw;
+	font-size: 1vw;
 }
 
 /* .sticky {
@@ -35,7 +34,7 @@ ul {
 	
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	list-style-type: none;
-	font-size: 5vw;
+	font-size: 1vw;
 }
 
 .loop {position:absolute}
