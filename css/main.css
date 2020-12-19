@@ -12,6 +12,7 @@ body {
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: 5vw;
+	transition: 0.2s;
 	padding: 10px;
 }
 
