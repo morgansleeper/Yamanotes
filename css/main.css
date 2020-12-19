@@ -39,4 +39,9 @@ ul {
 	font-size: 7vw;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .loop {position:absolute}
