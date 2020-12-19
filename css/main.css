@@ -6,7 +6,9 @@ body {
 }
 
 .header {
-	position:fixed;
+	position: fixed;
+	top: 0;
+	width: 100%;
 	padding: 10px;
 	text-align: center;
 	background: #9acd32;
@@ -22,8 +24,7 @@ body {
 } */
 
 #wrapper {
-	position:relative; 
-	margin:100% 0 0;
+	margin-top: 45px;
 }
 
 /* .sticky + #wrapper {
