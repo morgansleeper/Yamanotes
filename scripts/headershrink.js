@@ -5,8 +5,8 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("shrinkHeader").style.fontSize = "30px";
+    document.getElementById("shrinkHeader").style.fontSize = "2vw";
   } else {
-    document.getElementById("shrinkHeader").style.fontSize = "90px";
+    document.getElementById("shrinkHeader").style.fontSize = "5vw";
   }
 } 
