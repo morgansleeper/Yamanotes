@@ -14,11 +14,11 @@ body {
 	font-size: 80px;
 }
 
-wrapper {
+*/ wrapper {
 	position:relative; 
 	z-index:2; 
 	margin:100% 0 0;
-}
+} */
 
 ul {
 	margin: 0;
