@@ -11,7 +11,7 @@ body {
 	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	font-size: 3vw;
+	font-size: 5vw;
 	padding: 10px;
 }
 
@@ -35,7 +35,7 @@ ul {
 	
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	list-style-type: none;
-	font-size: 3vw;
+	font-size: 6vw;
 }
 
 .loop {position:absolute}
