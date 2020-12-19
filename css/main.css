@@ -1,4 +1,4 @@
-/* code by AP from https://codepen.io/anon/pen/PQwVEZ, via https://stackoverflow.com/revisions/48532120/4 */
+/* code adapted from https://codepen.io/anon/pen/PQwVEZ by AP, via https://stackoverflow.com/revisions/48532120/4 */
 
 body {
 	margin: 0;
@@ -8,12 +8,10 @@ ul {
 	margin: 0;
 	padding: 0;
 	
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	list-style-type: none;
 	font-size: 80px;
-}
-
-li:not(:first-child) {
-	color: lightgrey;
+	font-weight: bold;
 }
 
 .loop {position:absolute}
