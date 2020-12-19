@@ -11,7 +11,7 @@ body {
 	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	font-size: 1vw;
+	font-size: 3vw;
 }
 
 /* .sticky {
@@ -34,7 +34,7 @@ ul {
 	
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	list-style-type: none;
-	font-size: 1vw;
+	font-size: 3vw;
 }
 
 .loop {position:absolute}
