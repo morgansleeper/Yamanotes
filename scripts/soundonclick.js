@@ -34,6 +34,6 @@ function createsoundbite(sound){
 	}
 }
 
-//Initialize two sound clips with 1 fallback file each:
+//Initialize sound clips:
 
 var jrsh3=createsoundbite("audio/jr-sh-3.mp3")
