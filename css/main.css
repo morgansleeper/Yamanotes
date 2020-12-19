@@ -6,12 +6,13 @@ body {
 .header {
 	position: fixed;
 /*	z-index: 1; */
-	top: 0;
+	right: 0;
 	text-align: right;
 	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: 3vw;
+	padding: 10px;
 }
 
 /* .sticky {
