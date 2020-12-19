@@ -16,10 +16,20 @@ body {
 	font-size: 80px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 #wrapper {
 	position:relative; 
 	z-index:2; 
 	margin:100% 0 0;
+}
+
+.sticky + #wrapper {
+  padding-top: 102px;
 }
 
 ul {
