@@ -6,6 +6,7 @@ body {
 
 .header {
 	position:fixed;
+	z-index:1;
 	padding: 60px;
 	text-align: center;
 	background: #9acd32;
@@ -14,11 +15,11 @@ body {
 	font-size: 80px;
 }
 
-/* wrapper {
+wrapper {
 	position:relative; 
 	z-index:2; 
 	margin:100% 0 0;
-} */
+}
 
 ul {
 	margin: 0;
