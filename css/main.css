@@ -5,8 +5,8 @@ body {
 }
 
 ul {
-	margin: 0;
-	padding: 10;
+	margin: 20;
+	padding: 20;
 	
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	list-style-type: none;
