@@ -10,10 +10,11 @@ body {
 	text-align: center;
 	background: #9acd32;
 	color: white;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: 80px;
 }
 
-#wrapper {
+wrapper {
 	position:relative; 
 	z-index:2; 
 	margin:100% 0 0;
