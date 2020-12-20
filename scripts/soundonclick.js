@@ -53,6 +53,6 @@ var sh3=createsoundbite("audio/sh3.mp3")
 var sweetcall=createsoundbite("audio/sweetcall.mp3")
 var thirdman=createsoundbite("audio/thirdman.mp3")
 var uminoeki=createsoundbite("audio/uminoeki.mp3")
-var watercrown=createsoundbite("audio/watercrown/haru.mp3")
+var watercrown=createsoundbite("audio/watercrown.mp3")
 
 
