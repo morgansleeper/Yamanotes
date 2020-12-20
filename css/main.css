@@ -8,7 +8,6 @@ body {
 	z-index: -1;
 	right: 0;
 	text-align: right;
-	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: 6vw;
@@ -35,7 +34,6 @@ ul {
 	bottom: 0;
 	right: 0;
 	text-align: right;
-	background: #9acd32;
 	color: white;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-size: 3vw;
