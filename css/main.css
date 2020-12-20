@@ -39,6 +39,19 @@ ul {
 	font-size: 7vw;
 }
 
+.footer {
+	position: fixed;
+/*	z-index: 1; */
+	bottom: 0;
+	right: 0;
+	text-align: right;
+	background: #9acd32;
+	color: white;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 2vw;
+	padding: 10px;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
