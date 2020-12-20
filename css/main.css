@@ -5,6 +5,7 @@ body {
 
 .header {
 	position: fixed;
+	z-index: 1;
 	right: 0;
 	text-align: right;
 	background: #9acd32;
@@ -17,6 +18,7 @@ body {
 
 #wrapper {
 	margin-top: 45px;
+	z-index: 2;
 }
 
 ul {
@@ -30,6 +32,7 @@ ul {
 
 .footer {
 	position: fixed;
+	z-index: 1;
 	bottom: 0;
 	right: 0;
 	text-align: right;
