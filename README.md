@@ -9,6 +9,6 @@ You could use Yamanotes for ambience or to reimagine your commute, but it was de
 
 ### Acknowledgments
 
-Ekimelo and station information sourced from [Yamanote Eki-Melo](https://yamanote.tumblr.com/), [Departure Melody Room](http://dilettante.yukihotaru.com/index.html), [Sound of Station](http://melody.pos.to/index.html), and [Tokyo by Train](https://tokyobytrain.com/reference/every-yamanote-line-platform-melody/).
+Ekimelo and station information sourced from [Yamanote Eki-Melo](https://yamanote.tumblr.com/), [Departure Melody Room](http://dilettante.yukihotaru.com/index.html), [Sound of Station](http://melody.pos.to/index.html), [Tokyo by Train](https://tokyobytrain.com/reference/every-yamanote-line-platform-melody/), and [World of Departure Sounds](http://kaigansansei.ehoh.net/index.html).
 
 If you enjoy this, you'd probably also love [yamanote.style](http://yamanote.style/)!
