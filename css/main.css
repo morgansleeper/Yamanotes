@@ -3,6 +3,11 @@ body {
 	background-color: #9acd32;
 }
 
+h3	{
+padding:10px;
+margin:10px;
+}
+
 .header {
 	position: fixed;
 	right: 0;
