@@ -5,8 +5,7 @@ toggle between hiding and showing the dropdown content, and shrink the header
 if at the top of the page */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
-  if ((window.pageYOffset <= 50) &&
-  document.getElementById("shrinkHeader").style.fontSize == "6vw") {
+  if (window.pageYOffset <= 50) {
     document.getElementById("shrinkHeader").style.fontSize = "2vw";
   }
 }
