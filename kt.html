@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Yamanotes</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+		<link rel="manifest" href="icons/site.webmanifest">
+		<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="icons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="msapplication-config" content="icons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+
+	<script src="scripts/looper.js"></script>
+	<script src="scripts/headershrink.js"></script>
+	<script src="scripts/soundonclick.js"></script>
+	<script src="scripts/menuclick.js"></script>
+
+	<body style="background-color:#00BFFF;">
+
+		<div class="header" id="shrinkHeader">
+  			<h2>Keihin-Tōhokunotes<br>京浜ノーツ</h2>
+		</div>
+
+			<ul class="loop">
+        <li>▫️</li>
+        <li>▫️</li>
+        <li>▫️</li>
+        <li>▫️</li>
+        <li><b><a href="#current" onclick="chime.playclip()">品川</b> Shinagawa</a></li>
+        <li>▫️</li>
+        <li>▫️</li>
+        <li><b><a href="#current" onclick="flowershop.playclip()">高輪ゲートウェイ</b><br>Takanawa Gateway</a></li>
+        <li>▫️</li>
+        <li>▫️</li>
+        <li><b><a href="#current" onclick="springbox.playclip()">田町</b> Tamachi</a></li>
+        <li>▫️</li>
+        <li>▫️</li>
+        <li><b><a href="#current" onclick="springbox.playclip()">浜松町</b> Hamamatsuchō</a></li>
+        <li>▫️</li>
+        <li>▫️</li>
+        <li><b><a href="#current" onclick="sh1.playclip()">新橋</b> Shimbashi</a></li>
+        <li>▫️</li>
+        <li>▫️</li>
+        <li><b><a href="#current" onclick="sh5.playclip()">有楽町</b> Yūrakuchō</a></li>
+        <li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="sh5.playclip()">東京</b> Tokyo</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="harunew.playclip()">神田</b> Kanda</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="beyondtheline.playclip()">秋葉原</b> Akihabara</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="harunew.playclip()">御徒町</b> Okachimachi</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="bella.playclip()">上野</b> Ueno</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="harunew.playclip()">鶯谷</b> Uguisudani</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="harunew.playclip()">日暮里</b> Nippori</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="harunew.playclip()">西日暮里</b> Nishi-Nippori</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+				<li><b><a href="#current" onclick="harunew.playclip()">田端</b> Tabata</a></li>
+				<li>▫️</li>
+				<li>▫️</li>
+			</ul>
+
+		<div class="footer">
+			<div class="dropdown">
+  			<h3><a onclick="myFunction()" class="dropbtn">line</a></h3>
+  			<div id="myDropdown" class="dropdown-content">
+    			<h3><a href="nex.html">N'EX</a>
+          <a href="saikyo.html">Saikyō</a>
+          <a href="sobu.html">Sōbu</a>
+          <a href="uenotokyo.html">Ueno-T.</a>
+          <a href="index.html">Yamanote</a>
+          <a href="#">Keihin-T.</a></h3>
+  			</div>
+			</div>
+			<h3><a href="https://github.com/morgansleeper/Yamanotes">about</a></h3>
+		</div>
+
+	</body>
+
+	<audio>
+		<source src="audio/bella.mp3" type="audio/mpeg">
+    <source src="audio/beyondtheline.mp3" type="audio/mpeg">
+		<source src="audio/chime.mp3" type="audio/mpeg">
+		<source src="audio/flowershop.mp3" type="audio/mpeg">
+		<source src="audio/harunew.mp3" type="audio/mpeg">
+    <source src="audio/sh1.mp3" type="audio/mpeg">
+    <source src="audio/sh5.mp3" type="audio/mpeg">
+    <source src="audio/springbox.mp3" type="audio/mpeg">
+	</audio>
+</html>
