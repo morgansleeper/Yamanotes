@@ -34,6 +34,13 @@ function createsoundbite(sound){
 	}
 }
 
+function pauseall(){
+	bella.pause()
+	beyondtheline.pause()
+	railroadsongb.pause()
+	sunlight.pause()
+}
+
 //Initialize sound clips:
 
 var bella=createsoundbite("../audio/bella.mp3")

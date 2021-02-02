@@ -34,6 +34,17 @@ function createsoundbite(sound){
 	}
 }
 
+function pauseall(){
+	bella.pause()
+	beyondtheline.pause()
+	chime.pause()
+	flowershop.pause()
+	harunew.pause()
+	sh1.pause()
+	sh5.pause()
+	springbox.pause()
+}
+
 //Initialize sound clips:
 
 var bella=createsoundbite("../audio/bella.mp3")

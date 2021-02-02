@@ -34,6 +34,13 @@ function createsoundbite(sound){
 	}
 }
 
+function pauseall(){
+	mellowtime.pause()
+	sh1.pause()
+	thirdman.pause()
+	twinklingskyline.pause()
+}
+
 //Initialize sound clips:
 
 var mellowtime=createsoundbite("../audio/mellowtime.mp3")

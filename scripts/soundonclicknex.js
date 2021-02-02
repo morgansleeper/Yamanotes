@@ -34,6 +34,13 @@ function createsoundbite(sound){
 	}
 }
 
+function pauseall(){
+	beautifulhill.pause()
+	haru.pause()
+	seseragi.pause()
+	sh1.pause()
+}
+
 //Initialize sound clips:
 
 var beautifulhill=createsoundbite("../audio/beautifulhill.mp3")

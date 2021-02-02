@@ -34,6 +34,29 @@ function createsoundbite(sound){
 	}
 }
 
+function pauseall(){
+	aratana.pause()
+	astrob.pause()
+	bellb.pause()
+	gotadelvient.pause()
+	hananohorokobi.pause()
+	harajukua.pause()
+	haru.pause()
+	harutrem.pause()
+	melody.pause()
+	ogawav1.pause()
+	sakurab.pause()
+	seseragi.pause()
+	sf1.pause()
+	sh21.pause()
+	sh23.pause()
+	sh3.pause()
+	sweetcall.pause()
+	thirdman.pause()
+	uminoeki.pause()
+	watercrown.pause()
+}
+
 //Initialize sound clips:
 
 var aratana=createsoundbite("audio/aratana.mp3")
