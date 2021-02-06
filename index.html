@@ -20,6 +20,8 @@
 	<script src="scripts/headershrink.js"></script>
 	<script src="scripts/soundonclick.js"></script>
 	<script src="scripts/menuclick.js"></script>
+	<script src="scripts/utils.js"></script>
+	<script src="scripts/yamanote.js"></script>
 
 	<body>
 
@@ -32,94 +34,94 @@
 			<ul class="loop">
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();sh3.playclip()">東京</b> Tokyo</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(sh3, 'Tokyo')">東京</b> Tokyo</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();seseragi.playclip()">神田</b> Kanda</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(seseragi, 'Kanda')">神田</b> Kanda</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();ogawav1.playclip()">秋葉原</b> Akihabara</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(ogawav1, 'Akihabara')">秋葉原</b> Akihabara</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();harutrem.playclip()">御徒町</b> Okachimachi</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(harutrem, 'Okachimachi')">御徒町</b> Okachimachi</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();bellb.playclip()">上野</b> Ueno</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(bellb, 'Ueno')">上野</b> Ueno</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();harutrem.playclip()">鶯谷</b> Uguisudani</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(harutrem, 'Uguisudani')">鶯谷</b> Uguisudani</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();harutrem.playclip()">日暮里</b> Nippori</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(harutrem, 'Nippori')">日暮里</b> Nippori</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();harutrem.playclip()">西日暮里</b> Nishi-Nippori</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(harutrem, 'Nishi-Nippori')">西日暮里</b> Nishi-Nippori</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();harutrem.playclip()">田端</b> Tabata</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(harutrem, 'Tabata')">田端</b> Tabata</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();sakurab.playclip()">駒込</b> Komagome</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(sakurab, 'Komagome')">駒込</b> Komagome</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();haru.playclip()">巣鴨</b> Sugamo</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(haru, 'Sugamo')">巣鴨</b> Sugamo</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();haru.playclip()">大塚</b> Ōtsuka</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(haru,'Ōtsuka')">大塚</b> Ōtsuka</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();melody.playclip()">池袋</b> Ikebukuro</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(melody, 'Ikebukuro')">池袋</b> Ikebukuro</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();haru.playclip()">目白</b> Mejiro</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(haru, 'Mejiro')">目白</b> Mejiro</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();astrob.playclip()">高田馬場</b> Takadanobaba</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(astrob, 'Takadanobaba')">高田馬場</b> Takadanobaba</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();bellb.playclip()">新大久保</b> Shin-Ōkubo</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(bellb, 'Shin-Ōkubo')">新大久保</b> Shin-Ōkubo</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();aratana.playclip()">新宿</b> Shinjuku</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(aratana, 'Shinjuku')">新宿</b> Shinjuku</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();haru.playclip()">代々木</b> Yoyogi</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(haru, 'Yoyogi')">代々木</b> Yoyogi</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();harajukua.playclip()">原宿</b> Harajuku</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(harajukua, 'Harajuku')">原宿</b> Harajuku</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();hananohorokobi.playclip()">渋谷</b> Shibuya</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(hananohorokobi, 'Shibuya')">渋谷</b> Shibuya</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();thirdman.playclip()">恵比寿</b> Ebisu</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(thirdman, 'Ebisu')">恵比寿</b> Ebisu</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();watercrown.playclip()">目黒</b> Meguro</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(watercrown, 'Meguro')">目黒</b> Meguro</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();sh23.playclip()">五反田</b> Gotanda</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(sh23, 'Gotanda')">五反田</b> Gotanda</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();uminoeki.playclip()">大崎</b> Ōsaki</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(uminoeki, 'Ōsaki')">大崎</b> Ōsaki</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();seseragi.playclip()">品川</b> Shinagawa</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(seseragi, 'Shinagawa')">品川</b> Shinagawa</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();sweetcall.playclip()">高輪ゲートウェイ</b><br>Takanawa Gateway</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(sweetcall, 'Takanawa Gateway')">高輪ゲートウェイ</b><br>Takanawa Gateway</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();seseragi.playclip()">田町</b> Tamachi</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(seseragi, 'Tamachi')">田町</b> Tamachi</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();seseragi.playclip()">浜松町</b> Hamamatsuchō</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(seseragi, 'Hamamatsuchō')">浜松町</b> Hamamatsuchō</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();gotadelvient.playclip()">新橋</b> Shimbashi</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(gotadelvient, 'Shimbashi')">新橋</b> Shimbashi</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();sh21.playclip()">有楽町</b> Yūrakuchō</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(sh21, 'Yūrakuchō')">有楽町</b> Yūrakuchō</a></li>
 			</ul>
 		</div>
 

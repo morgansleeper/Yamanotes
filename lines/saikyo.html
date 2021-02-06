@@ -17,8 +17,10 @@
 	</head>
 
 	<script src="../scripts/headershrink.js"></script>
-	<script src="../scripts/soundonclicksaikyo.js"></script>
+	<script src="../scripts/soundonclick.js"></script>
 	<script src="../scripts/menuclick.js"></script>
+	<script src="../scripts/utils.js"></script>
+	<script src="../scripts/saikyo.js"></script>
 
 	<body style="background-color:#2E8B57;">
 
@@ -29,19 +31,19 @@
 			<ul class="loop">
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();mellowtime.playclip()">池袋</b> Ikebukuro</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(mellowtime, 'Ikebukuro')">池袋</b> Ikebukuro</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();mellowtime.playclip()">新宿</b> Shinjuku</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(mellowtime, 'Shinjuku')">新宿</b> Shinjuku</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();sh1.playclip()">渋谷</b> Shibuya</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(sh1, 'Shibuya')">渋谷</b> Shibuya</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-				<li><b><a href="#current" onclick="pauseall();thirdman.playclip()">恵比寿</b> Ebisu</a></li>
+				<li><b><a href="#current" onclick="onClickFunction(thirdman, 'Ebisu')">恵比寿</b> Ebisu</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
-        <li><b><a href="#current" onclick="pauseall();twinklingskyline.playclip()">大崎</b> Ōsaki</a></li>
+        <li><b><a href="#current" onclick="onClickFunction(twinklingskyline, 'Ōsaki')">大崎</b> Ōsaki</a></li>
 				<li>▫️</li>
 				<li>▫️</li>
 			</ul>
