@@ -7,7 +7,7 @@ You could use Yamanotes for ambience or to reimagine your commute, but it was de
 <p align = "center"> Click here to start:</p>
 <h1 align = "center"><a href="https://morgansleeper.github.io/Yamanotes/"><b><i>出発進行!</a></b></i></h1>
 
-### Acknowledgments
+### Acknowledgments & extras
 
 Ekimelo and station information sourced from [Yamanote Eki-Melo](https://yamanote.tumblr.com/), [Departure Melody Room](http://dilettante.yukihotaru.com/index.html), [Sound of Station](http://melody.pos.to/index.html), [Tokyo by Train](https://tokyobytrain.com/reference/every-yamanote-line-platform-melody/), [World of Departure Sounds](http://kaigansansei.ehoh.net/index.html), and many intrepid YouTubers.
 
